@@ -1,0 +1,39 @@
+*{
+padding:0;
+margin:0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.container{
+margin-left:50px;
+margin-right:50px;
+background-color:rgb(178, 13, 148);
+padding:30px;
+}
+
+div.container form{
+background-color: rgb(224, 113, 200);
+padding: 20px;
+}
+
+form h2{
+text-transform: uppercase;
+text-align: center;
+color:rgb(58, 24, 209);
+
+}
+
+.form-group{
+display: block;
+ }
+
+.form-control{
+display: block;
+}
+
+.button{
+background-color:rgb(207, 104, 231);
+margin-top:15px;
+
+
+}
