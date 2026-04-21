@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang ="vi">
+      <head>
+        <meta charset = "utf-8">
+        <title>Bảng cửu chương</title>
+	</head>
+      <body>
+        <form id = "formInBangCC">
+          <h2>In Bảng Cửu Chương</h2>
+          <label>Nhập số</label>
+          <input type="text">
+          <button type ="button" onclick ="inBCC()">In</button> 
+         <div id ="kq"></div>
+      </form>
+        <script>
+          function inBCC(){
+          let kq="";
+          const myform = document.forms["formInBangCC"];
+          const mytextfield = myform.elements[0];
+          let num = parseInt(mytextfield.value)
+          for(let i = 1; i <= 10; i++)
+        {
+          kq += num + " x " + i + " = " + (num * i) + "<br>"; 
+        }
+          document.getElementById("kq").innerHTML=kq;
+      }
+        </script>
+      </body>
+
+</html>
